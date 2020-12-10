@@ -223,17 +223,23 @@
         </h2>
         <div class="contact-wrapper">
           <p class="contact-wrapper__text">
-            [Put your call to action here]
+            <form class="form contact-wrapper__text " action="https://formspree.io/f/meqprklr" method="POST">
+          <label>
+            <h1>Email:</h1>
+            <input type="email" placeholder="Enter your email" name="_replyto"required/>
+          </label>
+          <label>
+            <h1>Message:</h1>
+            <textarea name="message" placeholder="Type your message" required></textarea>
+          </label>
+
+          <button class="cta-btn cta-btn--resume" type="submit">Send</button>
+        </form>
           </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
         </div>
       </div>
     </section>
+
     <!-- /END Contact Section -->
 
     <!-- **** Footer Section **** -->
